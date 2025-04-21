@@ -1,0 +1,49 @@
+{
+  "evaluations": [
+    {
+      "id": 1,
+      "productId": 1,
+      "name": "Andressa",
+      "email": "andressa@example.com",
+      "feedback": "Ótimo filme, cheio de ação!",
+      "experience": "Feliz",
+      "recommend": true
+    },
+    {
+      "productId": 2,
+      "name": "Alice",
+      "email": "alice@hotmail.com",
+      "feedback": "Muito bom",
+      "experience": "Medio",
+      "recomendet": true,
+      "id": 2
+    },
+    {
+      "productId": 3,
+      "name": "Samuel",
+      "email": "samuel@teste.com",
+      "feedback": "Excelente game.",
+      "experience": "TOP",
+      "recomendet": true,
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Minecraft",
+      "console": "Playstation 2 - PS2",
+      "brand": "Konami",
+      "description": "Minecraft",
+      "image": "https://upload.wikimedia.org/wikipedia/pt/9/9c/Minecraft_capa.png"
+    },
+    {
+      "id": 2,
+      "name": "GTA SAN ANDREAS",
+      "console": "Playstation 2 - PS2",
+      "brand": "Rockstar Games",
+      "description": "Harvest Moon: Back to Nature foi o quinto jogo da franquia Harvest Moon (Story of Seasons), sendo o terceiro produzido para consoles de mesa.",
+      "image": "https://upload.wikimedia.org/wikipedia/pt/d/d3/Grand_Theft_Auto_San_Andreas_capa.png"
+    }
+  ]
+}
