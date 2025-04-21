@@ -1,13 +1,16 @@
 import React from 'react';
 import { render, fireEvent, waitFor } from '@testing-library/react-native';
-import ListaJogos from '../screens/ListaJogos ';
+import ListaJogos from '../screens/ListaJogos';
 import { NavigationContainer } from '@react-navigation/native';
 import axios from 'axios';
-import { beforeEach, describe, expect, it, jest } from '@jest/globals';
-
+import { beforeEach, beforeAll, describe, expect, it, jest } from '@jest/globals';
 
 jest.mock('axios');
 const mockedAxios = axios as jest.Mocked<typeof axios>;
+
+beforeAll(() => {
+  process.env.EXPO_PUBLIC_API_URL = 'http://localhost:3000';
+});
 
 describe('Tela de Lista de Jogos', () => {
   beforeEach(() => {
