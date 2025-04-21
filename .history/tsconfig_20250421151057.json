@@ -20,7 +20,8 @@
     "jsx": "react-native",
     "typeRoots": [
       "./types"
-    ]
+    ],
+    "types": ["jest", "node"]  // Adicionado para garantir que o Jest seja reconhecido
   },
   "extends": "expo/tsconfig.base"
 }
