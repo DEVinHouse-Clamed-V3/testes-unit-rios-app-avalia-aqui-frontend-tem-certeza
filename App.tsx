@@ -2,7 +2,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { StyleSheet } from 'react-native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import TelaPrincipal from './screens/TelaPrincipal'; // Ajuste o caminho conforme necessário
-import ListaJogos from './screens/ListaJogos ';
+import ListaJogos from './screens/ListaJogos';
 import CadastrarFeedBack from './screens/CadastrarFeedBack';
 
 const Drawer = createDrawerNavigator();

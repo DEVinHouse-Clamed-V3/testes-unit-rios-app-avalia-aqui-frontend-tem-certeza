@@ -168,11 +168,12 @@ export default function CadastrarFeedBack({
         </View>
 
         <View style={styles.viewCheck}>
-          <Checkbox
-            color="#2f66df"
-            status={isDone ? 'checked' : 'unchecked'}
-            onPress={() => setIsDone(!isDone)}
-          />
+        <Checkbox
+       testID="checkbox-recomendaria"
+       color="#2f66df"
+       status={isDone ? 'checked' : 'unchecked'}
+       onPress={() => setIsDone(!isDone)}
+        />
           <Text>Recomendaria para outras pessoas?</Text>
         </View>
 
